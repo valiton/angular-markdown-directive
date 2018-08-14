@@ -1,6 +1,6 @@
 {
   "name": "angular-markdown-directive",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "simple AngularJS markdown directive with showdown",
   "main": "markdown.js",
   "scripts": {
@@ -20,6 +20,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/btford/angular-markdown-directive/issues"
+  },
+  "dependencies": {
+    "showdown": "^1.8.6"
   },
   "homepage": "https://github.com/btford/angular-markdown-directive",
   "devDependencies": {

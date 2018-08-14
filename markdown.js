@@ -6,6 +6,8 @@
 
 'use strict';
 
+const showdown = require('showdown')
+
 angular.module('btford.markdown', ['ngSanitize']).
   provider('markdownConverter', function () {
     var opts = {};
